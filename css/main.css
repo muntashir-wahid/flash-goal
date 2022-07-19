@@ -1,5 +1,102 @@
+/* GOOGLE FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* GLOBAL RESETS */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --black: #0f0e17;
+  --white: #fffffe;
+  --orange: #ff8906;
+}
+
+/* ****************************** */
+/* GENERAL AND RE-USEABLE STYLES */
+/* **************************** */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  line-height: 1;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.main {
+  padding: 5rem;
+}
+
+.container {
+  max-width: 132rem;
+  background-color: #0f0e17;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff8906;
+  color: var(--white);
+  font-size: 2rem;
+  padding: 1.6rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+/* *********************** */
+/* PAGE COMPONENTS STYLES */
+/* ********************* */
+
+/* HERO SECTION */
+.section-hero {
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  padding: 4rem 8rem 0 10rem;
+  border-radius: 3rem;
+}
+
+.hero-text-box {
+  color: var(--white);
+  padding-bottom: 6rem;
+}
+
+.primary-heading {
+  font-weight: 700;
+  font-size: 5.2rem;
+  letter-spacing: -1.7px;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.hero-img-box {
+  align-self: end;
+}
+
+.hero-img {
+  width: 100%;
 }
