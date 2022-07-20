@@ -172,11 +172,6 @@ img {
   color: var(--white);
 }
 
-/* .blog {
-  border-radius: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.068);
-} */
-
 .blog-img-box img {
   width: 100%;
 }
@@ -192,12 +187,9 @@ img {
 .blog-tag {
   display: inline-block;
   font-weight: 500;
-  padding: 0.4rem 1.6rem;
+  padding: 0.8rem 1.6rem 0.6rem;
   border: 1px solid var(--black);
   border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .blog-title {
