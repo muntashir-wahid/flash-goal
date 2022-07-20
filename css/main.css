@@ -152,10 +152,6 @@ p {
   color: var(--white);
 }
 
-.blogs {
-  margin-bottom: 0rem;
-}
-
 .blog {
   border-radius: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.068);
@@ -203,8 +199,9 @@ p {
 }
 
 .blog-btn-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  /* margin-top: 2rem; */
   display: none;
 }
 

@@ -11,6 +11,7 @@ body {
 
 .teams-flag {
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .teams-flag p {
@@ -25,6 +26,7 @@ body {
   justify-content: center;
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .match-time {
