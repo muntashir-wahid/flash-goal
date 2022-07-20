@@ -88,9 +88,18 @@
 
 @media (max-width: 44em) {
   .section-hero {
+    padding: 3.8rem 4.8rem 0;
     grid-template-columns: 1fr;
     align-items: center;
+    text-align: center;
   }
+
+  .primary-heading {
+    font-size: 3.8rem;
+    letter-spacing: -1.2px;
+    line-height: 1.2;
+  }
+
   .hero-btn-container {
     display: flex;
     justify-content: center;
