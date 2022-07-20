@@ -47,6 +47,10 @@ p {
   gap: 2.4rem;
 }
 
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .btn {
   display: inline-block;
   background-color: #ff8906;
@@ -149,7 +153,6 @@ p {
 }
 
 .blogs {
-  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 0rem;
 }
 

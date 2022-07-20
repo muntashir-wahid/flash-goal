@@ -1,0 +1,34 @@
+body {
+  font-size: 1.6rem;
+}
+
+.teams-flag,
+.teams-name {
+  display: flex;
+  align-items: center;
+  grid-gap: 2rem;
+}
+
+.teams-flag {
+  justify-content: space-between;
+}
+
+.teams-flag p {
+  font-weight: 700;
+}
+
+.team-flag img {
+  width: 100%;
+}
+
+.teams-name {
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.match-time {
+  text-align: center;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
