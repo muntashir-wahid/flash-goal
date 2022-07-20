@@ -39,8 +39,7 @@ p {
 
 .container {
   max-width: 132rem;
-  background-color: #0f0e17;
-  margin: 0 auto;
+  margin: 0 auto 13rem;
 }
 
 .grid {
@@ -69,6 +68,7 @@ p {
 
 /* HERO SECTION */
 .section-hero {
+  background-color: #0f0e17;
   grid-template-columns: 3fr 2fr;
   align-items: center;
   padding: 4rem 8rem 0 10rem;
@@ -98,5 +98,54 @@ p {
 }
 
 .hero-img {
+  width: 100%;
+}
+
+/* Blog SECTION */
+.section-blog {
+  grid-template-columns: 40rem 1fr;
+}
+
+.partial-nav {
+  height: 40rem;
+  background-color: var(--black);
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black);
+  background-color: var(--white);
+  padding: 1.8rem 4rem;
+  border-radius: 1rem;
+}
+
+.active:link,
+.active:visited {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.blogs {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-img-box img {
   width: 100%;
 }
