@@ -229,6 +229,7 @@ hr {
 .footer-nav-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5rem 0;
 }
