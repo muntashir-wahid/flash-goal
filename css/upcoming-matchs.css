@@ -2,6 +2,10 @@ body {
   font-size: 1.6rem;
 }
 
+.match-schedule {
+  padding: 5.2rem 3rem;
+}
+
 .teams-flag,
 .teams-name {
   display: flex;
