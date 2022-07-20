@@ -230,11 +230,24 @@ hr {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
 
 .footer-nav-link:link,
 .footer-nav-link:visited {
   color: #b9b9b9;
   text-decoration: none;
+}
+
+.footer-icon-container {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.footer-icon-link:link,
+.footer-icon-link:visited {
+  color: var(--white);
 }
