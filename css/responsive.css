@@ -16,11 +16,71 @@
     font-size: 4.8rem;
   }
 
-  .footer-heading {
-    font-size: 3.6rem;
-  }
-
   .teams-name {
     font: 1.8rem;
   }
+
+  .footer-heading {
+    font-size: 3.6rem;
+  }
 }
+
+/* ********************************* */
+/* Below 960px (Tablets) */
+/* 1em = 16px. 16 * 60em = 960px */
+/* ******************************* */
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero {
+    padding: 4rem 4rem 0;
+  }
+
+  .primary-heading {
+    font-size: 4.2rem;
+    letter-spacing: -1.2px;
+    line-height: 1.2;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
+  .section-blog {
+    grid-template-columns: 1fr;
+  }
+
+  .partial-nav {
+    height: auto;
+    display: block;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 1;
+  }
+  .nav-list {
+    flex-direction: row;
+  }
+
+  .blog-container,
+  .match-schedules {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+/* ********************************* */
+/* Below 784px (Mobile) */
+/* 1em = 16px. 16 * 44em = 704px */
+/* ******************************* */
